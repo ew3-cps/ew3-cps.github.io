@@ -1,0 +1,91 @@
+.imgrd-25 {
+    border-radius: 25px;
+}
+
+.color-base {
+    background-color: #D5D8DC;
+}
+.color-bar {
+    background-color: #AAB6C5;
+}
+.icon-color {
+    color: #1b1b1b;
+}
+.titleRob {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.textRob {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.titleAbril {
+    font-family: 'Abril Fatface', serif;
+}
+
+/* 
+@media only screen and (max-width: 991px) and (min-width: 769px){
+    CSS that should be displayed if width is equal to or less than 991px and larger 
+    than 768px goes here 
+}
+*/
+.titleRob {
+    font-size: 3.7vw;
+}
+@media only screen and (max-width: 1099px){
+/* CSS that should be displayed if width is equal to or less than 1050px goes here */
+    .titleRob {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1040px) {
+    #abtText {
+        font-size: 1.538vw;
+    }
+}
+
+.fsw-6 {  
+    font-size: 6vw;    
+}
+.fsw-5 {  
+    font-size: 5vw;    
+}
+.fsw-4 {  
+    font-size: 4vw;    
+}
+.fsw-3 {  
+    font-size: 3vw;    
+}
+.fsw-2 {  
+    font-size: 2vw;    
+}
+.fsw-1 {  
+    font-size: 1vw;    
+}
+
+#pageCon {
+    display: inline-block;
+}
+
+.textOutline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: whitesmoke;
+}
+.carouselBackground {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.size50 {
+    width: 50%;
+
+}
+.reciperoundbox {
+    border-radius: 25px;
+    background-color: #d6b68b;
+}
+#recipemain {
+    background-color: #FAE1C0; /* #d6b68b */
+    border-radius: 25px;
+}
+#recipehead {
+    background-color: #d6b68b; /* #d6b68b */
+    border-radius: 25px 25px 0 0;
+}
